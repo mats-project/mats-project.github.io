@@ -35,7 +35,7 @@ a {
 
 /* ====================================
    1. HEADER / NAVIGATION
-   ==================================== */
+   ===================================== */
 header {
     background: #ffffff;
     border-bottom: 1px solid #eee;
@@ -84,7 +84,7 @@ nav a:hover {
 
 /* ====================================
    2. HERO SECTION
-   ==================================== */
+   ======================================= */
 .hero-section {
     background: url('placeholder-hero-background.jpg') center/cover no-repeat; /* !!! REPLACE WITH A PHOTO OF YOUR WORK !!! */
     background-color: #e6ffe6; /* Fallback background color */
@@ -144,7 +144,7 @@ nav a:hover {
 }
 
 
-/* ====================================
+/* =================================
    3. SERVICES SECTION
    ======================================= */
 .services-section {
@@ -216,9 +216,9 @@ nav a:hover {
 }
 
 
-/* ====================================
+/* ==================================
    3. SERVICE AREA / FOOTER
-   ======================================= */
+   ===================================== */
 .area-section {
     padding: 60px 0;
     background-color: #e9ecef;
@@ -238,7 +238,7 @@ nav a:hover {
 
 /* ------------------------------------
    FOOTER GRID
-   ------------------------------------ */
+   ---------------------------------- */
 footer {
     background-color: #2c3e50; /* Dark background for professionalism */
     color: white;
@@ -285,8 +285,8 @@ footer {
 
 
 /* ------------------------------------
-   RESPONSIVENESS (Makes it look good on phones)
-   ------------------------------------ */
+   RESPONSIVENESS (Fixes for Mobile View)
+--------------------------------------- */
 @media (max-width: 900px) {
     /* Stacks the service cards */
     .service-cards {
@@ -311,6 +311,31 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    /* *** MOBILE HEADER ADJUSTMENTS *** */
+    header .container {
+        flex-direction: column;
+        align-items: flex-start; /* Align logo and nav items to the left */
+        padding: 0 15px;
+    }
+    .logo {
+        margin-bottom: 15px;
+    }
+    /* Make the nav links wrap nicely */
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    nav a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .nav-cta {
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 600px) {
     /* Smaller screens adjustments */
     .hero-section h1 {
@@ -327,3 +352,10 @@ footer {
         margin-top: 10px;
     }
 }
+/* ---------------------=================
+   --- MANUAL MANIPULATION INSTRUCTION ---
+   -------------------------------------*/
+/* When content is provided externally (like via AI/Agent), 
+   it must be manually pasted into the following location to take effect. */
+/* This prevents automated edits from overriding manual structure. */
+/* -------------------------------------*/
