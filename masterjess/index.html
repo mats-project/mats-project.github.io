@@ -359,7 +359,11 @@
             Your free consultation is 15 minutes, zero pressure, and the first step toward a space that actually works. Whether you're booking for your home, your office, or your warehouse — we're ready when you are.
           </p>
           <div class="cta-form-wrapper">
-            <form class="cta-form" action="#" method="post" aria-label="Contact form">
+            <!-- TODO: Replace hello@masterjess.com with your real email address -->
+            <form class="cta-form" action="https://formsubmit.co/hello@masterjess.com" method="post" aria-label="Contact form">
+              <input type="hidden" name="_subject" value="New Consultation Request - Masterjess" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="https://masterjess.com" />
               <div class="form-row">
                 <div class="form-group">
                   <label for="name">Full Name</label>
@@ -406,7 +410,7 @@
           <span class="logo-icon">MJ</span>
           <span class="logo-text">masterjess</span>
         </a>
-        <p>Expert space organization for homes, offices, and commercial spaces. Serving [your area] and available virtually nationwide.</p>
+        <p>Expert space organization for homes, offices, and commercial spaces. Serving your area and available virtually nationwide.</p>
       </div>
       <div class="footer-links">
         <h4>Services</h4>
