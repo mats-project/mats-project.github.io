@@ -34,8 +34,20 @@
 6. Connect contact form backend
 7. Review 25 recommended improvements documented in webmaster's notes
 
+## Subagent Handoff Files
+- All subagent context is preserved in: `handoff/` directory
+- `handoff/README.md` — Index of all subagent roles and how to re-spawn them
+- `handoff/01-research-specialist.md` — Research specialist context
+- `handoff/02-research-copywriter.md` — Research & copywriter context
+- `handoff/03-webmaster-build.md` — Webmaster build context (includes 25 improvements list)
+- `handoff/04-webmaster-general.md` — Webmaster general/ongoing context
+
 ## Notes for Next Session
 - All files in: `/home/mastercontrol2/.openclaw/workspace/mats/website/masterjess/`
+- Handoff files in: `handoff/` (read README.md first)
 - Model for all subagents: `openrouter/owl-alpha`
 - Dan's preference: hands-on learner, prefers working examples over theory
-- Status: Ready for Dan's review when he's back
+- Git identity: AiriZero / airi@danielericwilliams.com
+- Hosting: GitHub Pages (static only)
+- Contact form backend: FormSubmit.co (verify email before production use)
+- Status: Awaiting Dan's review and next task assignment
